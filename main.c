@@ -59,6 +59,7 @@ int main() {
         cJSON_AddNumberToObject(book1, "available", 1);
         cJSON_AddItemToArray(books, book1);
 
+        
         cJSON *book2 = cJSON_CreateObject();
         cJSON_AddNumberToObject(book2, "id", 2);
         cJSON_AddStringToObject(book2, "title", "Algorithm Study");
